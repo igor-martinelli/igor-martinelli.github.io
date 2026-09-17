@@ -42,7 +42,12 @@ To evaluate forget quality beyond surface-level classification accuracy, we form
 
 ---
 
-### Team & Repository
+### Repository & Report
 
-* **Team**: Max Krähenmann, Leo Neubecker, Virgilio Strozzi, Igor Martinelli[cite: 1]
 * **Repository**: [igor-martinelli/ETH-Deep-Learning](https://github.com/igor-martinelli/ETH-Deep-Learning)
+
+* **PDF Download**: [Download Report (PDF)]({{ '/assets/pdf/Machine_Unlearning_Report.pdf' | relative_url }})[cite: 1]
+
+<object data="{{ '/assets/pdf/Machine_Unlearning_Report.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px" class="rounded z-depth-1 mt-3">
+    <p>Your browser does not support inline PDF viewing. You can <a href="{{ '/assets/pdf/Machine_Unlearning_Report.pdf' | relative_url }}">click here to download the report</a>.</p>
+</object>
