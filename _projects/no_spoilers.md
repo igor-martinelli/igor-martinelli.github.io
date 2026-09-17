@@ -4,7 +4,7 @@ title: No Spoilers
 description: No Spoilers is our game about a carrot fighting its way out of a rotting fridge, the contents of which were forgotten when its owner went on a long vacation. Times were hard already, but when the power went out everything got even worse for our brave fighting carrot! Fight your way through progressively larger levels, trying to find the exit that leads to the next level. On your way you will have to kick all kinds of rotting fruits and veggies that used to be your friends, such as bananas, mushrooms or watermelons!
 img: assets/img/projects/no-spoilers-preview.jpg
 importance: 1
-category: Coursework
+category: coursework
 github: https://github.com/igor-martinelli/ETH-GameLab
 ---
 
