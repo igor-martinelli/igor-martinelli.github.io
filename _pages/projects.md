@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of academic research projects, interactive software, and engineering builds.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [coursework, fun]
 horizontal: false
 ---
 
