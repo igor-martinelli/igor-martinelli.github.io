@@ -21,17 +21,20 @@ latest_posts:
   enabled: false
 ---
 
-I am a recent MSc Computer Science graduate from **ETH Zurich** specializing in **Machine Intelligence** with a minor in **Data Management Systems** (Swiss citizen). My technical expertise spans **neuromorphic engineering (SNNs)**, **biomedical signal processing (rPPG)**, and **real-time MLOps telemetry pipelines**.
+Hello! I’m Igor. I grew up in Ticino, the sunny southern region of Switzerland, before moving north to pursue my studies. I recently completed both my Bachelor's and Master's degrees in Computer Science at **ETH Zurich**, specializing in **Machine Intelligence** with a minor in **Data Management Systems**. 
 
-### Experience
+As I step into the professional world, I’m eager to find an environment where I can tackle meaningful engineering challenges, take ownership of real projects, and grow both professionally and personally. 
 
-* **Machine Learning Intern** | *ELCA Informatique* (Apr 2026 – Present)  
-  Engineering an end-to-end predictive analytics platform for electric bus fleets. Developing high-frequency time-series telemetry pipelines, noise filtering algorithms, threshold tuning frameworks, and explainable AI dashboards using Azure ML and SHAP.
-* **Data Annotation Intern** | *BLP Digital* (Apr 2023 – Sep 2023)  
-  Curated high-quality computer vision datasets, onboarded incoming technical interns, and maintained data quality standards using Python and SQL.
+Throughout my studies, I’ve worked on bridging theory with real-world applications:
+* **BLP Digital** *(Data Annotation Intern)*: During my Bachelor's, I curated high-quality datasets for computer vision models and helped onboard new team members.
+* **ELCA Informatique** *(Machine Learning Intern)*: Right after my Master's, I worked on engineering real-time telemetry pipelines, time-series noise filtering, and predictive energy analytics for electric bus fleets.
 
-### Research Interests
+I'm currently exploring exciting career opportunities—both locally around Zurich and internationally.
 
-* **Neuromorphic Computing & SNNs**: Hardware-aware spiking neural networks, synaptic sparsity, input compression, and event-driven tactile sensing for low-power robotics/prosthetics.
-* **Computer Vision & Signal Processing**: Remote photoplethysmography (rPPG), rPPG signal quality index classification, and camera-based physiological sensing.
-* **ML Systems &
+### What Drives Me
+
+* **Real-World AI & Systems**: Building machine learning models that solve practical problems while making the underlying pipelines more efficient, explainable, and reliable.
+* **Neuromorphic Engineering**: Exploring low-power spiking neural networks (SNNs), event-driven sensing, and hardware-aware architectures for robotics and prosthetics.
+* **Biomedical Signal Processing**: Working with camera-based sensing (rPPG) and remote physiological monitoring.
+
+When I'm not coding or looking into research papers, you'll usually find me running or at the gym!
