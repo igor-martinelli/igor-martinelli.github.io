@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: MSc Computer Science Student at ETH Zurich
+subtitle: Recent MSc Computer Science Graduate at ETH Zurich
 
 profile:
   align: right

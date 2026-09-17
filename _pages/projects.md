@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Work in progress :) 
+description: A collection of academic research projects, interactive software, and engineering builds.
 nav: true
 nav_order: 2
 display_categories: [work, fun]
