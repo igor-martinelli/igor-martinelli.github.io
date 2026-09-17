@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Selected peer-reviewed papers and conference proceedings on neuromorphic computing, spiking neural networks, and biomedical signal processing.
+description: During my studies, I had the opportunity to write and collaborate on peer-reviewed research in neuromorphic computing, spiking neural networks, and biomedical signal processing.
 nav: true
 nav_order: 1
 ---
