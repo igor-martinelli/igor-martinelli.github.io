@@ -8,10 +8,6 @@ profile:
   align: right
   image: profile-pic.jpg
   image_circular: false # set to true if you want a circular photo
-  more_info: >
-    <p>martinelli.igor@gmail.com</p>
-    <p>8102 Oberengstringen</p>
-    <p>Zurich, Switzerland</p>
 
 selected_papers: true # includes papers marked with selected={true} in _bibliography/papers.bib
 social: true # includes social icons configured in _config.yml

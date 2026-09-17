@@ -6,6 +6,10 @@ title: Igor Martinelli # the website title (if blank, full name will be used ins
 first_name: Igor
 middle_name:
 last_name: Martinelli
+contact_note: >
+  martinelli.igor@gmail.com
+  8102 Oberengstringen,
+  Zurich, Switzerland
 description: MSc Computer Science student at ETH Zurich specializing in Machine Intelligence and Neuromorphic Computing.
 author:
   name: Igor Martinelli
