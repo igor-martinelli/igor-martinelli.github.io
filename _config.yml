@@ -4,7 +4,7 @@
 
 title: Igor Martinelli # the website title (if blank, full name will be used instead)
 first_name: Igor
-middle_name: Abibi
+middle_name:
 last_name: Martinelli
 contact_note: >
   martinelli.igor@gmail.com
@@ -12,7 +12,7 @@ contact_note: >
 description: MSc Computer Science student at ETH Zurich specializing in Machine Intelligence and Neuromorphic Computing.
 author:
   name: Igor Martinelli
-  avatar: prof_pic.jpg
+  avatar: profile-pic.jpg
   bio: MSc CS student at ETH Zurich with a focus on Machine Intelligence, SNNs, and ML Engineering.
 github_username: igor-martinelli
 linkedin_username: igor-martinelli-0211a2236
