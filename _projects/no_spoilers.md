@@ -31,7 +31,7 @@ github: https://github.com/igor-martinelli/ETH-GameLab
 
 ---
 
-### Links & Repository
+### Links
 
 * **GitHub Repository**: [igor-martinelli/ETH-GameLab](https://github.com/igor-martinelli/ETH-GameLab)
 * **Course**: ETH Game Programming Laboratory (Game Technology Center)
