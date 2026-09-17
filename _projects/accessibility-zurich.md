@@ -3,7 +3,7 @@ layout: page
 title: Zurich Mobility Accessibility App
 description: A web application tracking real-time station accessibility and accessible parking spaces across Zurich.
 img: assets/img/projects/accessibility-preview.png
-importance: 2
+importance: 3
 category: coursework
 github: https://github.com/igor-martinelli/ETH-Fundamentals-Web-Engineering/tree/main/Final%20Project
 ---

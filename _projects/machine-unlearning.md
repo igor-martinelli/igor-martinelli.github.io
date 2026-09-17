@@ -3,8 +3,8 @@ layout: page
 title: Machine Unlearning & Privacy
 description: Assessing deep learning unlearning techniques on ResNet-18 using a novel Likelihood-Ratio privacy metric.
 img: assets/img/projects/unlearning-preview.png
-importance: 3
-category: work
+importance: 2
+category: coursework
 github: https://github.com/igor-martinelli/ETH-Deep-Learning
 ---
 
