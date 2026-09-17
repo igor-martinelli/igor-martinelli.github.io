@@ -7,12 +7,18 @@ importance: 1
 category: coursework
 github: https://github.com/igor-martinelli/ETH-GameLab
 ---
-{% include figure.liquid 
-  loading="eager" 
-  path="assets/img/projects/no-spoilers-preview.jpg" 
-  class="img-fluid rounded z-depth-1" 
-  zoomable=true 
-%}
+<div class="row mt-3">
+    <div class="col-sm text-center">
+        <video class="img-fluid rounded z-depth-1" controls autoplay loop muted playsinline width="100%">
+            <source src="{{ '/assets/video/no-spoilers-teaser.mp4' | relative_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+<div class="caption">
+    Official teaser trailer for No Spoilers.
+</div>
+
 No Spoilers is our game about a carrot fighting its way out of a rotting fridge, the contents of which were forgotten when its owner went on a long vacation. Times were hard already, but when the power went out everything got even worse for our brave fighting carrot! Fight your way through progressively larger levels, trying to find the exit that leads to the next level. On your way you will have to kick all kinds of rotting fruits and veggies that used to be your friends, such as bananas, mushrooms or watermelons!
 
 ### Overview
