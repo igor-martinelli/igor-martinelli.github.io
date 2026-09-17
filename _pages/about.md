@@ -2,31 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: MSc Computer Science Student at ETH Zurich
 
 profile:
   align: right
   image: profile-pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false # set to true if you want a circular photo
   more_info: >
+    <p>martinelli.igor@gmail.com</p>
+    <p>8102 Oberengstringen</p>
     <p>Zurich, Switzerland</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true # includes papers marked with selected={true} in _bibliography/papers.bib
+social: true # includes social icons configured in _config.yml
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Computer Science Master's student at **ETH Zurich** specializing in **Machine Intelligence** with a minor in **Data Management Systems**. My research interests center around **neuromorphic computing**, **spiking neural networks (SNNs)**, and efficient event-driven machine learning algorithms for robotics and embedded devices.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Currently, I am working as a **Machine Learning Intern** at **ELCA Informatique**, where I build end-to-end predictive analytics platforms and explainable AI solutions for electric bus fleets using Azure ML, XGBoost, and interactive dashboards.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I completed my Master's thesis at ETH Zurich on event-driven tactile object classification using hardware-aware SNNs, and worked as a Data Annotation Intern at BLP Digital.
+
+### Research Interests
+* **Neuromorphic Computing & SNNs**: Hardware-aware spiking neural network architectures, input compression, and event-driven sensing.
+* **Machine Learning & Systems**: Predictive analytics, explainable AI (SHAP), and scalable data pipelines using PyTorch, CUDA, and Azure ML.
