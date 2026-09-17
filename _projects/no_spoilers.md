@@ -2,7 +2,7 @@
 layout: page
 title: No Spoilers
 description: A 3D rogue-lite action game developed in C# with MonoGame for the ETH Game Programming Laboratory.
-img: assets/img/projects/no-spoilers-preview.jpg
+img: assets/img/projects/no-spoilers-preview.png
 importance: 1
 category: coursework
 github: https://github.com/igor-martinelli/ETH-GameLab

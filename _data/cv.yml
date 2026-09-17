@@ -82,19 +82,6 @@ cv:
         url: https://doi.org/10.1038/s44328-024-00002-1
         summary: Published in npj Biosensing.
 
-    Extracurricular:
-      - company: CBR Locarno
-        position: Lifeguard
-        location: Locarno, Switzerland
-        start_date: 2016-06-01
-        end_date: 2022-08-01
-
-      - company: US Ascona
-        position: Gymnastics Coach
-        location: Ascona, Switzerland
-        start_date: 2016-09-01
-        end_date: 2019-08-01
-
     Skills:
       - name: Programming Languages
         keywords: "Python, C/C++, SQL, Java, TypeScript, JavaScript, R, Swift"
