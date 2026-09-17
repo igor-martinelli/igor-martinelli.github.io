@@ -4,7 +4,7 @@ title: Zurich Mobility Accessibility App
 description: A web application tracking real-time station accessibility and accessible parking spaces across Zurich.
 img: assets/img/projects/accessibility-preview.png
 importance: 2
-category: work
+category: coursework
 github: https://github.com/igor-martinelli/ETH-Fundamentals-Web-Engineering/tree/main/Final%20Project
 ---
 
@@ -16,18 +16,55 @@ The platform aggregates open city data to deliver a streamlined interface that a
 
 ---
 
-### Key Features & Architecture
+### Dashboard & Core Features
 
-* **Interactive Mapping & Filtering**: Built-in spatial visualizations to inspect local tram/train stop accessibility ratings and nearby accessible parking spaces in real time.
-* **Open Data Integration**: Ingested and synchronized multiple municipal datasets from **Stadt Zürich** and **Open Data Swiss**, including:
-  * *Behindertenparkplätze* (Disabled parking locations and attributes)
-  * *Bestandsaufnahme BEHIG* (Disability Discrimination Act compliance audits for stations)
-  * *VBZ GTFS Transit Data* (Schedules and station geographic coordinates)
-* **Modern Web Stack**: Built with a responsive frontend optimized for accessibility standards and deployed via Vercel for fast, zero-downtime serving.
+{% include figure.liquid 
+  loading="eager" 
+  path="assets/img/projects/accessibility-dashboard.png" 
+  title="Complete Application Dashboard" 
+  class="img-fluid rounded z-depth-1" 
+  zoomable=true 
+%}
+
+The main dashboard integrates an interactive map with search filters and dynamic status panels. Users can inspect public transit hubs across Zurich to evaluate accessibility metrics at a glance before planning their journeys.
 
 ---
 
-### Live Demo & Code
+### Station Accessibility Details
 
-* **Live Web App**: [Zürich Accessibility Web App](https://github.com/igor-martinelli/ETH-Fundamentals-Web-Engineering/tree/main/Final%20Project)
+{% include figure.liquid 
+  loading="eager" 
+  path="assets/img/projects/accessibility-train.png" 
+  title="Station Accessibility Markers" 
+  class="img-fluid rounded z-depth-1" 
+  zoomable=true 
+%}
+
+Zooming into specific train and tram stations reveals detailed accessibility indicators. Custom map markers display clear icon labels showing whether a station features wheelchair-accessible ramps, step-free platform access, and accessible restroom facilities.
+
+---
+
+### Accessible Parking Proximity
+
+{% include figure.liquid 
+  loading="eager" 
+  path="assets/img/projects/accessibility-parking.png" 
+  title="Nearby Parking Highlights" 
+  class="img-fluid rounded z-depth-1" 
+  zoomable=true 
+%}
+
+Selecting a station triggers a spatial search that highlights surrounding handicap-accessible parking spaces. The system automatically identifies and highlights the closest parking spots in yellow, helping drivers with reduced mobility quickly locate optimal parking options near transit links.
+
+---
+
+### Tech Stack & Datasets
+
+* **Open Data Sources**: Integrated official city feeds, including *Behindertenparkplätze* (Open Data Swiss), *Bestandsaufnahme BEHIG* (station accessibility audits), and *VBZ GTFS* transit schedules.
+* **Architecture**: Responsive web frontend hosted on Vercel for fast, accessible performance across mobile and desktop devices.
+
+---
+
+### Repository
+
 * **GitHub Repository**: [ETH-Fundamentals-Web-Engineering Source Code](https://github.com/igor-martinelli/ETH-Fundamentals-Web-Engineering/tree/main/Final%20Project)
