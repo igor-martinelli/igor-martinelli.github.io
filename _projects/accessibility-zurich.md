@@ -60,8 +60,13 @@ Selecting a station triggers a spatial search that highlights surrounding handic
 
 ### Tech Stack & Datasets
 
-* **Open Data Sources**: Integrated official city feeds, including *Behindertenparkplätze* (Open Data Swiss), *Bestandsaufnahme BEHIG* (station accessibility audits), and *VBZ GTFS* transit schedules.
-* **Architecture**: Responsive web frontend hosted on Vercel for fast, accessible performance across mobile and desktop devices.
+* **Frontend Framework**: Built with **React** and **TypeScript**, leveraging component-driven architecture for dynamic map rendering, accessibility state management, and real-time UI updates.
+* **Interactive Mapping & Geospatial UI**: Utilized **Leaflet** / **Mapbox** integrations alongside modern UI libraries to handle interactive map markers, custom accessibility icons, and spatial proximity radius visualizer overlays.
+* **Open Data Pipelines**: Integrated and normalized multiple municipal Swiss open data feeds:
+  * *Behindertenparkplätze* (Open Data Swiss API): Live spatial coordinates and capacity attributes for handicap-accessible parking.
+  * *Bestandsaufnahme BEHIG* (Open Data Swiss): Official Disability Discrimination Act compliance data for public transit stops.
+  * *VBZ GTFS Transit Feeds* (Stadt Zürich Open Data): Static and scheduled transit network geography for tram and train stations.
+* **Deployment & CI/CD**: Deployed on **Vercel** for fast edge distribution, zero-downtime continuous integration from GitHub, and responsive cross-device performance.
 
 ---
 

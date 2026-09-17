@@ -16,10 +16,6 @@ author:
   avatar: prof_pic.jpg
   bio: MSc CS student at ETH Zurich with a focus on Machine Intelligence, SNNs, and ML Engineering.
 
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, academic-website, portfolio, eth-zurich, machine-learning, neuromorphic-computing
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: laptop.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
