@@ -28,7 +28,7 @@ $$\hat{\epsilon} = \max \left| \log \frac{1 - \delta - \text{FPR}}{\text{FNR}}, 
 
 Lower $\hat{\epsilon}$ values indicate higher statistical indistinguishability between an unlearned model and a model that was never exposed to the forget set.
 
-<div class="row mt-3 mb-3">
+<div class="row mt-3 mb-3 justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/unlearning-fig1.png" class="img-fluid rounded z-depth-1" zoomable=true caption="Figure 1: Conceptual overlap of retrained vs. unlearned hinge loss distributions across decision boundaries to derive empirical FPR, FNR, and ε bounds." %}
     </div>
