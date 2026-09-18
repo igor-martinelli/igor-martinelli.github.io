@@ -13,7 +13,7 @@ selected_papers: true # includes papers marked with selected={true} in _bibliogr
 social: true # includes social icons configured in _config.yml
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 5
 

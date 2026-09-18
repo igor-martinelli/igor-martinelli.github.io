@@ -57,7 +57,7 @@ github: https://github.com/igor-martinelli/Lyrix
 
 * **Language**: Swift
 * **UI Framework**: SwiftUI
-* **APIs & Integration**: Open source lyrix API
+* **APIs & Integration**: Open source lyrics API
 
 ---
 
