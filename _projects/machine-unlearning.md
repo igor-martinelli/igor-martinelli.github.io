@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Machine Unlearning & Privacy
+title: Machine Unlearning
 description: Assessing deep learning unlearning techniques on ResNet-18 using a novel Likelihood-Ratio privacy metric.
 img: assets/img/projects/unlearning-preview.png
 importance: 2
@@ -42,13 +42,7 @@ To evaluate forget quality beyond surface-level classification accuracy, we form
 
 ---
 
-### Team & Repository
+### Repository & Report
 
-* **Team**: Max Krähenmann, Leo Neubecker, Virgilio Strozzi, Igor Martinelli
 * **Repository**: [igor-martinelli/ETH-Deep-Learning](https://github.com/igor-martinelli/ETH-Deep-Learning)
-
----
-
-### Full Project Report
-
 * **PDF Download**: [Download Report (PDF)]({{ '/assets/pdf/unlearning-report.pdf' | relative_url }})
