@@ -66,10 +66,10 @@ Below are the experimental results on **CIFAR-10** ($\delta = 0.05$, $N=80$ mode
 | **Poison** | 4.16 | 99.72% | 99.55% | 94.21% |
 | **Poison Full** | 4.20 | 99.99% | 87.41% | 94.16% |
 
-* **Optimal Privacy ($\hat{\epsilon}$ Bound)**: **Pruning Complex** achieves the lowest empirical privacy bound ($\hat{\epsilon} = 2.20$) across all evaluated trade-off values of $\delta$ (as illustrated in Figure 2), bringing it closest to the baseline retrained model ($\hat{\epsilon} = 0.88$)[cite: 3].
-* **Preservation of Model Utility**: All methods successfully preserve test accuracy within a tight range of $92.60\%$ to $95.04\%$ and maintain near-perfect retain set accuracy ($96.09\%$–$99.99\%$)[cite: 3].
-* **The Accuracy–Privacy Disconnect**: A sharp drop in forget set accuracy does not indicate effective unlearning[cite: 3]. For example, **Poison Full** depresses forget set accuracy to $87.41\%$[cite: 3], yet exhibits the worst privacy score ($\hat{\epsilon} = 4.20$)[cite: 3] because Membership Inference Attacks can easily isolate the artificially induced loss distributions[cite: 3].
-* **Targeted vs. Naïve Unlearning**: Methods relying on selective weight re-initialization (**Pruning Complex** and **Pruning Last Layer**) consistently outperform standard fine-tuning ($\hat{\epsilon} = 3.74$) and label poisoning ($\hat{\epsilon} = 4.16$)[cite: 3] by targeting the specific parameters encoding the forget set distribution[cite: 3].
+* **Optimal Privacy ($\hat{\epsilon}$ Bound)**: **Pruning Complex** achieves the lowest empirical privacy bound ($\hat{\epsilon} = 2.20$) across all evaluated trade-off values of $\delta$ (as illustrated in Figure 2), bringing it closest to the baseline retrained model ($\hat{\epsilon} = 0.88$).
+* **Preservation of Model Utility**: All methods successfully preserve test accuracy within a tight range of $92.60\%$ to $95.04\%$ and maintain near-perfect retain set accuracy ($96.09\%$–$99.99\%$).
+* **The Accuracy–Privacy Disconnect**: A sharp drop in forget set accuracy does not indicate effective unlearning. For example, **Poison Full** depresses forget set accuracy to $87.41\%$, yet exhibits the worst privacy score ($\hat{\epsilon} = 4.20$) because Membership Inference Attacks can easily isolate the artificially induced loss distributions.
+* **Targeted vs. Naïve Unlearning**: Methods relying on selective weight re-initialization (**Pruning Complex** and **Pruning Last Layer**) consistently outperform standard fine-tuning ($\hat{\epsilon} = 3.74$) and label poisoning ($\hat{\epsilon} = 4.16$) by targeting the specific parameters encoding the forget set distribution.
 
 <div class="row mt-3 mb-3">
     <div class="col-sm mt-3 mt-md-0">
