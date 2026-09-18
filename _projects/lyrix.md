@@ -14,11 +14,18 @@ github: https://github.com/igor-martinelli/Lyrix
 
 ---
 
-### Demo & Preview
+### Demo
 
 <div class="row mt-3 mb-3 justify-content-center">
-    <div class="col-sm-8 text-center">
-        <video class="img-fluid rounded z-depth-1" controls autoplay loop muted style="max-height: 550px; width: auto;">
+    <div class="col-8 col-sm-6 col-md-4 col-lg-3 text-center">
+        <video 
+            class="img-fluid rounded-4 z-depth-1" 
+            controls 
+            autoplay 
+            loop 
+            muted 
+            playsinline
+            style="max-height: 550px; width: 100%; object-fit: contain;">
             <source src="{{ '/assets/video/lyrix-demo.mp4' | relative_url }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -34,6 +41,7 @@ github: https://github.com/igor-martinelli/Lyrix
 * **Background Color Picker**: Select custom background colors for clean, high-contrast layouts.
 * **One-Tap Save & Share**: Save high-resolution wallpapers directly to your Photos library or share them instantly with friends.
 * **Minimalist UI**: Built with simplicity in mind for a lightweight, distraction-free user experience.
+
 ---
 
 ### Tech Stack
