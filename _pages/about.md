@@ -33,8 +33,8 @@ I'm currently exploring exciting career opportunities—both locally around Zuri
 
 ### What Drives Me
 
-* **Real-World AI & Systems**: Building machine learning models that solve practical problems while making the underlying pipelines more efficient, explainable, and reliable.
-* **Neuromorphic Engineering**: Exploring low-power spiking neural networks (SNNs), event-driven sensing, and hardware-aware architectures for robotics and prosthetics.
-* **Biomedical Signal Processing**: Working with camera-based sensing (rPPG) and remote physiological monitoring.
+* **Real-World Computer Vision**: Building robust visual perception models and camera-based sensing techniques that solve practical challenges in real-world environments.
+* **Efficient Neural Networks**: Designing lightweight, hardware-aware deep learning architectures and optimized inference pipelines for edge devices and resource-constrained systems.
+* **Applied Artificial Intelligence**: Translating complex machine learning concepts into end-to-end, reliable software solutions with tangible, real-world applications.
 
 When I'm not coding or looking into research papers, you'll usually find me running or at the gym!

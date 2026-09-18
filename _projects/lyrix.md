@@ -16,19 +16,26 @@ github: https://github.com/igor-martinelli/Lyrix
 
 ### Demo
 
-<div class="row mt-3 mb-3 justify-content-center">
-    <div class="col-8 col-sm-6 col-md-4 col-lg-3 text-center">
-        <video 
-            class="img-fluid rounded-4 z-depth-1" 
-            controls 
-            autoplay 
-            loop 
-            muted 
-            playsinline
-            style="max-height: 550px; width: 100%; object-fit: contain;">
-            <source src="{{ '/assets/video/lyrix-demo.mp4' | relative_url }}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+<div class="row mt-4 mb-4 justify-content-center">
+    <div class="col-9 col-sm-6 col-md-4 col-lg-3 text-center">
+        <!-- iPhone Screen Wrapper -->
+        <div class="shadow-lg mx-auto" 
+             style="border-radius: 40px; 
+                    overflow: hidden; 
+                    border: 4px solid #2d2d2d; 
+                    background: #000; 
+                    max-width: 280px;">
+            <video 
+                class="w-100 d-block" 
+                autoplay 
+                loop 
+                muted 
+                playsinline 
+                controls>
+                <source src="{{ '/assets/video/lyrix-demo.mp4' | relative_url }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
     </div>
 </div>
 
