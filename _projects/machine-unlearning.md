@@ -76,8 +76,8 @@ Below are the experimental results on **CIFAR-10** ($\delta = 0.05$, $N=80$ mode
 
 ### Key Takeaways
 
-1. **Superior Forget Quality**: **Pruning Complex** achieved the lowest privacy bound ($\hat{\epsilon} = 2.20$)[cite: 3], significantly outperforming basic fine-tuning ($\hat{\epsilon} = 3.74$)[cite: 3] while retaining high test utility ($94.31\%$)[cite: 3].
-2. **The Accuracy Paradox**: Forcing low accuracy on the forget set (e.g., **Poison Full** achieving 87.41% forget accuracy)[cite: 3] resulted in the worst privacy protection ($\hat{\epsilon} = 4.20$)[cite: 3]. Membership inference attacks easily detect output distribution artifacts induced by poisoning[cite: 3].
+1. **Superior Forget Quality**: **Pruning Complex** achieved the lowest privacy bound ($\hat{\epsilon} = 2.20$), significantly outperforming basic fine-tuning ($\hat{\epsilon} = 3.74$) while retaining high test utility ($94.31\%$).
+2. **The Accuracy Paradox**: Forcing low accuracy on the forget set (e.g., **Poison Full** achieving 87.41% forget accuracy) resulted in the worst privacy protection ($\hat{\epsilon} = 4.20$). Membership inference attacks easily detect output distribution artifacts induced by poisoning.
 
 <div class="row mt-3 mb-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -85,7 +85,7 @@ Below are the experimental results on **CIFAR-10** ($\delta = 0.05$, $N=80$ mode
     </div>
 </div>
 
-3. **Cross-Domain Generalization**: Evaluating on regression tasks (**AgeDB**, MAE $6.73$)[cite: 3] showed that poisoning methods alter logit distributions differently across classification vs. regression tasks[cite: 3], highlighting the need for task-specific unlearning metrics[cite: 3].
+3. **Cross-Domain Generalization**: Evaluating on regression tasks (**AgeDB**, MAE $6.73$) showed that poisoning methods alter logit distributions differently across classification vs. regression tasks, highlighting the need for task-specific unlearning metrics.
 
 ---
 
