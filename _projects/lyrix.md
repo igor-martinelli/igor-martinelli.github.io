@@ -1,16 +1,15 @@
 ---
 layout: page
 title: Lyrix
-description: A native iOS application built in Swift for synchronized lyrics, music discovery, and audio playback.
-img: assets/img/projects/lyrix-preview.png
+description: A minimal, straightforward iOS app to create and share custom song lyric wallpapers in seconds.img: assets/img/projects/lyrix-preview.png
 importance: 3
-category: personal
+category: fun
 github: https://github.com/igor-martinelli/Lyrix
 ---
 
 ### Overview
 
-**Lyrix** is a native iOS application developed in Swift that provides users with real-time synchronized lyrics, track metadata, and seamless music integration. Designed with modern Apple design principles, the app delivers a fluid, responsive interface for exploring and interacting with song lyrics on the go.
+**Lyrix** is a minimal iOS application built in Swift designed to transform your favorite song lyrics into lock screen and home screen wallpapers. Search for any song, scroll through the lyrics to pick your favorite lines, choose a background color, and immediately save or share your wallpaper.
 
 ---
 
@@ -29,17 +28,18 @@ github: https://github.com/igor-martinelli/Lyrix
 
 ### Key Features
 
-* **Real-Time Synchronized Lyrics**: Displays synchronized lyric scrolling aligned perfectly with audio playback.
-* **Music & Metadata Search**: Fast search functionality for discovering tracks, artists, and album artwork.
-* **Native Apple Design**: Built using SwiftUI / UIKit guidelines to ensure smooth animations, dark mode support, and an intuitive UI.
-* **Offline Caching**: Caches previously fetched lyrics and track details for offline viewing.
-
+* **Universal Song Search**: Search for any track and scroll through full song lyrics seamlessly.
+* **Intuitive Line Selection**: Tap to select the exact lines of lyrics you want to feature on your wallpaper.
+* **Background Color Picker**: Select custom background colors for clean, high-contrast layouts.
+* **One-Tap Save & Share**: Save high-resolution wallpapers directly to your Photos library or share them instantly with friends.
+* **Minimalist UI**: Built with simplicity in mind for a lightweight, distraction-free user experience.
 ---
 
 ### Tech Stack
 
 * **Language**: Swift
-* **Frameworks**: SwiftUI, AVFoundation, Combine
+* **UI Framework**: SwiftUI
+* **APIs & Integration**: Open source lyrix API
 
 ---
 
