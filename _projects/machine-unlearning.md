@@ -84,16 +84,18 @@ Below are the experimental results on **CIFAR-10** ($\delta = 0.05$, $N=80$ mode
 1. **Superior Forget Quality**: **Pruning Complex** achieved the lowest privacy bound ($\hat{\epsilon} = 2.20$), significantly outperforming basic fine-tuning ($\hat{\epsilon} = 3.74$) while retaining high test utility ($94.31\%$).
 2. **The Accuracy Paradox**: Forcing low accuracy on the forget set (e.g., **Poison Full** achieving 87.41% forget accuracy) resulted in the worst privacy protection ($\hat{\epsilon} = 4.20$). Membership inference attacks easily detect output distribution artifacts induced by poisoning.
 
-    <div class="row mt-3 mb-3">
-        <div class="col-sm-6 mt-3 mt-md-0">
-            {% include figure.liquid loading="eager" path="assets/img/projects/unlearning-prune-complex.png" class="img-fluid rounded z-depth-1" zoomable=true caption="<b>Pruning Complex</b>: High distribution overlap indicating true statistical unlearning." %}
-        </div>
-        <div class="col-sm-6 mt-3 mt-md-0">
-            {% include figure.liquid loading="eager" path="assets/img/projects/unlearning-poison-full.png" class="img-fluid rounded z-depth-1" zoomable=true caption="<b>Poison Full</b>: Clear distribution separation revealing vulnerability to MIA." %}
-        </div>
+<div class="row mt-3 mb-3">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/unlearning-prune-complex.png" class="img-fluid rounded z-depth-1" zoomable=true caption="<b>Pruning Complex</b>: High distribution overlap indicating true statistical unlearning." %}
     </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/unlearning-poison-full.png" class="img-fluid rounded z-depth-1" zoomable=true caption="<b>Poison Full</b>: Clear distribution separation revealing vulnerability to MIA." %}
+    </div>
+</div>
 
-3. **Cross-Domain Generalization**: Evaluating on regression tasks (**AgeDB**, MAE $6.73$) showed that poisoning methods alter logit distributions differently across classification vs. regression tasks, highlighting the need for task-specific unlearning metrics.
+<ol start="3">
+  <li><b>Cross-Domain Generalization</b>: Evaluating on regression tasks (<b>AgeDB</b>, MAE $6.73$) showed that poisoning methods alter logit distributions differently across classification vs. regression tasks, highlighting the need for task-specific unlearning metrics.</li>
+</ol>
 
 ---
 
