@@ -21,7 +21,7 @@ cv:
   sections:
     Education:
       - institution: ETH Zurich
-        location: Zurich, Switzerland
+        location: '<span style="list-style: none; display: inline-block;"><i class="fa-solid fa-location-dot"></i> Zurich, Switzerland</span>'
         url: https://ethz.ch/
         area: Machine Intelligence (Minor in Data Management Systems)
         studyType: MSc in Computer Science
