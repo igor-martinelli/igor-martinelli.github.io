@@ -1,0 +1,8 @@
+/* Completely remove the footer bar and background */
+footer, 
+footer.fixed-bottom, 
+footer.sticky-bottom,
+.footer {
+  display: none !important;
+  background-color: transparent !important;
+}
