@@ -1,8 +1,14 @@
 repo_description_lines_max: 2
 
 github_repos:
-  - igor-martinelli/ETH-GameLab
+  - igor-martinelli/igor-martinelli.github.io
+  - igor-martinelli/SNN-Object-Classification
+  - igor-martinelli/Lyrix
+  - igor-martinelli/ETH-Probabilistic-Artificial-Intelligence
+  - igor-martinelli/ETH-Computational-Intelligence-Lab
+  - igor-martinelli/ETH-Computer-Vision
   - igor-martinelli/ETH-Deep-Learning
+  - igor-martinelli/ETH-GameLab
   - igor-martinelli/ETH-Fundamentals-Web-Engineering
-
+  - igor-martinelli/ETH-Intro-to-Machine-Learning
   
