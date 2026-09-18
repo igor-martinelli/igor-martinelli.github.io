@@ -80,8 +80,11 @@ Below are the experimental results on **CIFAR-10** ($\delta = 0.05$, $N=80$ mode
 2. **The Accuracy Paradox**: Forcing low accuracy on the forget set (e.g., **Poison Full** achieving 87.41% forget accuracy) resulted in the worst privacy protection ($\hat{\epsilon} = 4.20$). Membership inference attacks easily detect output distribution artifacts induced by poisoning.
 
 <div class="row mt-3 mb-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/unlearning-fig3.png" class="img-fluid rounded z-depth-1" zoomable=true caption="Figure 3: Comparison of Membership Inference Attack (MIA) hinge-loss distributions. Pruning Complex demonstrates high distribution overlap, whereas Poison Full displays clear separation." %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/unlearning-prune-complex.png" class="img-fluid rounded z-depth-1" zoomable=true caption="<b>Pruning Complex</b>: High distribution overlap indicating true statistical unlearning." %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/unlearning-poison-full.png" class="img-fluid rounded z-depth-1" zoomable=true caption="<b>Poison Full</b>: Clear distribution separation revealing vulnerability to MIA." %}
     </div>
 </div>
 
