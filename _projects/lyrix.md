@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Lyrix
-description: A minimal, straightforward iOS app to create and share custom song lyric wallpapers in seconds.img: assets/img/projects/lyrix-preview.png
+description: A minimal, straightforward iOS app to create and share custom song lyric wallpapers in seconds.
+img: assets/img/projects/lyrix-preview.png
 importance: 3
 category: fun
 github: https://github.com/igor-martinelli/Lyrix
