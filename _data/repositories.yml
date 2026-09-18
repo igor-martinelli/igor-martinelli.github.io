@@ -1,9 +1,8 @@
-github_users:
-  - igor-martinelli
-
 repo_description_lines_max: 2
 
 github_repos:
-  - igor-martinelli/igor-martinelli.github.io
-  
+  - igor-martinelli/ETH-GameLab
+  - igor-martinelli/ETH-Deep-Learning
+  - igor-martinelli/ETH-Fundamentals-Web-Engineering
+
   
