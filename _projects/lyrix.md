@@ -24,14 +24,16 @@ github: https://github.com/igor-martinelli/Lyrix
                     overflow: hidden; 
                     border: 4px solid #2d2d2d; 
                     background: #000; 
-                    max-width: 280px;">
+                    max-width: 250px; 
+                    aspect-ratio: 886 / 1920;">
             <video 
-                class="w-100 d-block" 
+                class="w-100 h-100 d-block" 
                 autoplay 
                 loop 
                 muted 
                 playsinline 
-                controls>
+                controls
+                style="object-fit: cover;">
                 <source src="{{ '/assets/video/lyrix-demo.mp4' | relative_url }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>

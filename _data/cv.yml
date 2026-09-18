@@ -21,7 +21,7 @@ cv:
   sections:
     Education:
       - institution: ETH Zurich
-        location: '<span style="list-style: none; display: inline-block;"><i class="fa-solid fa-location-dot"></i> Zurich, Switzerland</span>'
+        location: Zurich, Switzerland
         url: https://ethz.ch/
         area: Machine Intelligence (Minor in Data Management Systems)
         studyType: MSc in Computer Science
@@ -57,7 +57,7 @@ cv:
 
     Projects:
       - name: Enhancing Prosthetic and Robotic Devices with Neuromorphic Spiking Neural Networks for Tactile Object Classification
-        summary: Master Thesis at ETH Zurich (Sep 2025 – Mar 2026).
+        summary: Master Thesis at ETH Zurich (Sep 2025 - Mar 2026).
         highlights:
           - Built a hardware-aware SNN pipeline encoding tactile pressure into sparse event streams for low-power robotics.
           - Applied input compression and synaptic sparsity to meet chip routing constraints, reaching 86.97% accuracy on 17 classes.
