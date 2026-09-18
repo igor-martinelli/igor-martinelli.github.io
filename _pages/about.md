@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Recent MSc Computer Science Graduate at ETH Zurich
 
